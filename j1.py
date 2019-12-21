@@ -50,15 +50,6 @@ def jarvis(data):
         location = data[2]
         speak("Hold on Frank, I will show you where " + location + " is.")
         os.system("chromium-browser https://www.google.nl/maps/place/" + location + "/&amp;")
-    if "bhenchod" in data:
-        speak("madarchod")
-
-    if "chutiya" in data:
-        speak("bhosdika")
-    if "who is MS" in data:
-        speak("MS is manmohan. and he is bhosdika, chutiya, ")
-    if "who is Chinu" in data:
-        speak("my love")
     if "open file" in data:
         speak("yess sir")
         os.system('nautilus')
